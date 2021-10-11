@@ -1,5 +1,5 @@
 # learn-typescript
-****This is a simple project for learning the typescript features and do fun things using code.
+This is a simple project for learning the typescript features and do fun things using code.
 You can add code with typescript features and let's share your knowledge with others. 
 
 **Since this is the learning project, Code Comments are mandatory.**
