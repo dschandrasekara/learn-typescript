@@ -10,11 +10,13 @@ Setup :
 3. Type "node install" command.
 
 How to contribute it?
-1. Create separate folder ex: **example**
-2. adding your typescript source inside folder in step 1.
-3. run compile command -> **FILENAME=<file_name> FOLDER=<folder_name> npm run compile**
-4. run output command ->  **FILENAME=<file_name> FOLDER=<folder_name> npm run output**
-5. After verifying out, you can raise the PR to original repo main branch. 
+1. Fork and Checkout the project.
+2. Create new issue in original repo. 
+3. Create separate folder ex: **example** in the project.
+4. adding your typescript source inside folder in step 1.
+5. run compile command -> **FILENAME=<file_name> FOLDER=<folder_name> npm run compile**
+6. run output command ->  **FILENAME=<file_name> FOLDER=<folder_name> npm run output**
+7. After verifying out, you can raise the PR to original repo main branch. 
 
 Ex:  
 FILENAME=hello-world FOLDER=example npm run compile
