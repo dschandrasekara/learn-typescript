@@ -19,5 +19,5 @@ How to contribute it?
 7. After verifying output, you can raise the PR to original repo main branch. 
 
 Ex:  
-FILENAME=hello-world FOLDER=example npm run compile
-FILENAME=hello-world FOLDER=example npm run output
+1. FILENAME=hello-world FOLDER=example npm run compile
+2. FILENAME=hello-world FOLDER=example npm run output
