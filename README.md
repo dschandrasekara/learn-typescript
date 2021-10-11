@@ -16,7 +16,7 @@ How to contribute it?
 4. adding your typescript source inside folder in step 1.
 5. run compile command -> **FILENAME=<file_name> FOLDER=<folder_name> npm run compile**
 6. run output command ->  **FILENAME=<file_name> FOLDER=<folder_name> npm run output**
-7. After verifying out, you can raise the PR to original repo main branch. 
+7. After verifying output, you can raise the PR to original repo main branch. 
 
 Ex:  
 FILENAME=hello-world FOLDER=example npm run compile
