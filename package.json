@@ -1,0 +1,22 @@
+{
+  "name": "learn-typescript",
+  "version": "1.0.0",
+  "description": "learn and func with typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dschandrasekara/learn-typescript.git"
+  },
+  "author": "dschandrasekara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dschandrasekara/learn-typescript/issues"
+  },
+  "homepage": "https://github.com/dschandrasekara/learn-typescript#readme",
+  "dependencies": {
+    "typescript": "^4.4.3"
+  }
+}
