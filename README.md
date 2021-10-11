@@ -7,7 +7,7 @@ You can add code with typescript features and let's share your knowledge with ot
 Setup :
 1. Install Node js - https://nodejs.org/en/download/
 2. Fork & Checkout the repo from github.
-3. Type "node install" command.
+3. Type "npm install" command.
 
 How to contribute it?
 1. Fork and Checkout the project.
