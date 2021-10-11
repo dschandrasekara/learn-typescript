@@ -18,5 +18,9 @@
   "homepage": "https://github.com/dschandrasekara/learn-typescript#readme",
   "dependencies": {
     "typescript": "^4.4.3"
+  },
+  "scripts" : {
+    "compile" : "tsc $FOLDER/$FILENAME.ts",
+    "output" : "node $FOLDER/$FILENAME.js"
   }
 }
