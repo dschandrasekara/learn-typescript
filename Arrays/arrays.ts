@@ -15,6 +15,6 @@ Array initialization refers to populating the array elements.
 Array element values can be updated or modified but cannot be deleted
 
 compile command: FILENAME=Arrays  FOLDER=arrays npm run compile
-run command FILENAME=Arrays  FOLDER=arrays npm run output
+run command: FILENAME=Arrays  FOLDER=arrays npm run output
 
  */
