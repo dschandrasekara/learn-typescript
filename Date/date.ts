@@ -1,3 +1,9 @@
+/** Steps to run the file
+1) First install Typescript: `npm install -g typescript`
+2) Move to Date folder
+3) In command prompt run `tsc date.ts`
+4) Run the command `node date.js`*/
+
 // new Date
 let date: Date = new Date();  
 console.log("Date = " + date); //Date = Mon Oct 18 2021 19:12:56 GMT+0530 (India Standard Time)
