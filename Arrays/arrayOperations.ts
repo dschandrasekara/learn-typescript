@@ -1,8 +1,8 @@
 /** Steps to run the file
 1) First install Typescript: `npm install -g typescript`
 2) Move to Arrays folder
-3) In command prompt run `tsc arrays.ts`
-4) Run the command `node arrays.js`*/
+3) In command prompt run `tsc arrayOperations.ts`
+4) Run the command `node arrayOperations.js`*/
 
 // Common operations
 
