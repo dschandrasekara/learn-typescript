@@ -1,54 +1,27 @@
+/** Steps to run the file
+1) First install Typescript: `npm install -g typescript`
+2) Move to Functions folder
+3) In command prompt run `tsc functions.ts`
+4) Run the command `node functions.js`*/
 
-export {}
-// Array  parameters
-function firstElement(arr: any[]) {
-    return arr[0];
-  }
-let  arr: number[]=[4,5,6]
-console.log(arr)
-console.log("Least element in the array is : "+ firstElement(arr));
-console.log("----------------------------------");
-//Specifying Type parameter
-function append<Type>(arr1: Type[], arr2: Type[]): Type[] {
-    return arr1.concat(arr2);
-  }
-  console.log(append<string | number>([1, 2, 3], ["hello"]));
-  console.log("----------------------------------");
-// optional  parameters
-function add(num1: number,num2?: number):number//making the second parameter optional
-{
-    if (num2)  
-    return num1+num2;
-    else
-      return num1;
+// TypeScript functions can be created both as a named function or as an anonymous function
+
+function sum(a: number, b: number): number {
+    return a + b;
 }
-console.log(add(3,4));
-console.log(add(5));
-console.log("----------------------------------");
 
+let mySum = function (a: number, b: number): number {
+    return a + b;
+};
 
-//default Parameter
-function diff(num1: number,num2: number= 10):number{
-    if (num2)  
-    return num1-num2;
-    else
-      return num1;
+// Function expression
+let greet2 = function (name: string) {
+    return 'hello ' + name
 }
-console.log(diff(7,4));
-console.log(diff(5)); //if a parameter is not there a default value is there 
-console.log("----------------------------------");
-
-
-// Parameter either string or number 
-type SorN = string | number;
-function sum(a:SorN,b:SorN):SorN{
-    if(typeof a=='number' && typeof b=='number'){
-        return a+b;
-    }
-    return a.toString() + b.toString(); //tostring() will return string
-    //here we returning a concatinated string
+// optional and default parameters
+function messageLog(message: string, userId?: string) {
+    let time = "11:00AM";
+    console.log(time, message, userId || 'Not signed in')
 }
-console.log(sum(2,3));
-console.log(sum("HACKTOBER","FEST"));
-console.log("----------------------------------");
-
+messageLog('Loaded') // logs "11:00AM Loaded Not signed in"
+messageLog('Loaded', 'user123')  // logs "11:00AM Loaded user123"
