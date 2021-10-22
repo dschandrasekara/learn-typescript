@@ -4,7 +4,8 @@
   "description": "learn and func with typescript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "tsc $FOLDER/$FILENAME.ts",
+    "output": "node $FOLDER/$FILENAME.js"
   },
   "repository": {
     "type": "git",
@@ -19,8 +20,7 @@
   "dependencies": {
     "typescript": "^4.4.3"
   },
-  "scripts" : {
-    "compile" : "tsc $FOLDER/$FILENAME.ts",
-    "output" : "node $FOLDER/$FILENAME.js"
+  "devDependencies": {
+    "@types/node": "^16.11.3"
   }
 }
