@@ -15,10 +15,10 @@ How to contribute it?
 3. Create seperate branch for the issue or task.
 4. Create separate folder ex: **example** in the project.
 5. adding your typescript source inside folder in step 1 (hello-world.ts).
-6. Mac OS - run compile command -> **FILENAME=<file_name> FOLDER=<folder_name> npm run compile**
-7. Mac OS - run output command ->  **FILENAME=<file_name> FOLDER=<folder_name> npm run output**
+6. run compile command -> **npm run compile <path/file.ts>**
+7. run output command ->  **npm run output <path/file.js>**
 8. After verifying output, you can raise the PR to original repo main branch. 
 
-Ex:  Mac OS
-1. FILENAME=hello-world FOLDER=example npm run compile
-2. FILENAME=hello-world FOLDER=example npm run output
+Execution example:
+1. npm run compile example/hello-world.ts
+2. npm run output example/hello-world.js
