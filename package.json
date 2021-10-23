@@ -4,7 +4,9 @@
   "description": "learn and func with typescript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile" : "tsc",
+    "output" : "node"
   },
   "repository": {
     "type": "git",
@@ -18,9 +20,5 @@
   "homepage": "https://github.com/dschandrasekara/learn-typescript#readme",
   "dependencies": {
     "typescript": "^4.4.3"
-  },
-  "scripts" : {
-    "compile" : "tsc $FOLDER/$FILENAME.ts",
-    "output" : "node $FOLDER/$FILENAME.js"
   }
 }
