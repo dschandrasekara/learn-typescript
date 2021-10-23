@@ -20,5 +20,8 @@
   "homepage": "https://github.com/dschandrasekara/learn-typescript#readme",
   "dependencies": {
     "typescript": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.3"
   }
 }
