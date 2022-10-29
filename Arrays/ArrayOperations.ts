@@ -47,3 +47,13 @@ console.log("...................................");
 //To Slice a Given Array
 console.log(arr.slice(1));//we can pass starting and ending vertex as parameter
 
+//Filter elements from array
+const newFilteredArray = arr.filter(f => f !== "HactoberFest");
+console.log(newFilteredArray)
+console.log("...................................");
+
+//Find elements from array
+const newFoundArray = arr.find(f => f === "HactoberFest");
+console.log(newFoundArray)
+console.log("...................................");
+
